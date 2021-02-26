@@ -50,12 +50,12 @@ $$ J = - \frac{1}{m}  \sum_{i = 1}^m  \large ( \small y^{(i)} \log a^{(i)}\large
 
 ## Conclusion
 
-||DNN|CNN|ResNet|
-| --- | --- | --- | --- |
-|Epoch|1500|200|10
-|Train Accuracy|1.000|0.921|0.999|
-|Val Accuracy|1.000|0.915|1.000|
-|Train loss|0.000113|0.235623|0.0011|
+||RNN|RNN-LSTM|
+| --- | --- | --- |
+|Epoch|1500|200|
+|Train Accuracy|0.923|1.000|
+|Val Accuracy|0.892|0.982|
+|Train loss|0.3665|0.0024|
 
 ### RNN Loss function
 
