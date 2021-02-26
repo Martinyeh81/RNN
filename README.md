@@ -2,7 +2,7 @@
 
 ## Data
 
-The data is from deeplearning.ai (https://www.coursera.org/learn/nlp-sequence-models/home/welcome)
+The data is from deeplearning.ai (https://www.coursera.org/learn/nlp-sequence-models)
 
 ### Dataset:
 
@@ -89,5 +89,6 @@ ResNet Loss function
 
 ## Reference
 
-"Convolutional Neural Networks" [Online]. Available: https://www.coursera.org/learn/convolutional-neural-networks/
+"Sequence Modelss" [Online]. Available: https://www.coursera.org/learn/nlp-sequence-models
+
 
