@@ -52,16 +52,32 @@ $$ J = - \frac{1}{m}  \sum_{i = 1}^m  \large ( \small y^{(i)} \log a^{(i)}\large
 
 ||RNN|RNN-LSTM|
 | --- | --- | --- |
-|Epoch|1500|200|
+|Epoch|400|50|
 |Train Accuracy|0.923|1.000|
 |Val Accuracy|0.892|0.982|
 |Train loss|0.3665|0.0024|
 
-### RNN Loss function
+### RNN Loss function and Confusion Matrix 
+
+||Precision|Recall|F1-score|
+| --- | --- | --- | --- |
+|0|1.00|1.00|1.00|
+|1|1.00|1.00|1.00|
+|2|1.00|1.00|1.00|
+|3|1.00|0.99|1.00|
+|4|1.00|0.99|0.99|
 
 ![sen4](https://github.com/Martinyeh81/RNN/blob/main/images/RNN_loss.png)
 
-### RNN-LSTM Loss function
+### RNN-LSTM Loss function and Confusion Matrix 
+
+||Precision|Recall|F1-score|
+| --- | --- | --- | --- |
+|0|1.00|0.75|0.86|
+|1|1.00|1.00|1.00|
+|2|0.81|0.94|0.87|
+|3|0.87|0.87|0.87|
+|4|1.00|1.00|1.00|
 
 ![sen5](https://github.com/Martinyeh81/RNN/blob/main/images/RNN_LSTM_loss.png)
 
