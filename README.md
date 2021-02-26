@@ -13,7 +13,7 @@ The data is from deeplearning.ai (https://www.coursera.org/learn/nlp-sequence-mo
 |2|I am upset|3|
 |3|throw the ball|1|
 
-![sen1](https://github.com/Martinyeh81/CNN/blob/main/images/amer_sign3.png)
+![sen1](https://github.com/Martinyeh81/RNN/blob/main/images/data_set.png)
 
 ### 400,001 words with 50-dimensional GloVe embeddings:
 
@@ -39,13 +39,13 @@ Compute the softmax cross-entropy cost function J:
 
 $$ J = - \frac{1}{m}  \sum_{i = 1}^m  \large ( \small y^{(i)} \log a^{(i)}\large )\small$$
 
-1. Simulated the RNN model(epoch = 400, optimizer= adam):
+### Simulated the RNN model(epoch = 400, optimizer= adam):
 
-![sen2](https://github.com/Martinyeh81/CNN/blob/main/images/DNN_layer.png)
+![sen2](https://github.com/Martinyeh81/RNN/blob/main/images/image_1.png)
 
-2. RNN-LSTM model(epochs = 50, batch_size = 32, optimizer= adam):
+### RNN-LSTM model(epochs = 50, batch_size = 32, optimizer= adam):
 
-![sen3](https://github.com/Martinyeh81/CNN/blob/main/images/CNN_layer.png)
+![sen3](https://github.com/Martinyeh81/RNN/blob/main/images/emojifier-v2.png)
 
 
 ## Conclusion
@@ -57,17 +57,14 @@ $$ J = - \frac{1}{m}  \sum_{i = 1}^m  \large ( \small y^{(i)} \log a^{(i)}\large
 |Val Accuracy|1.000|0.915|1.000|
 |Train loss|0.000113|0.235623|0.0011|
 
-DNN Loss function
+### RNN Loss function
 
-![sign9](https://github.com/Martinyeh81/CNN/blob/main/images/DNN_loss.png)
+![sen4](https://github.com/Martinyeh81/RNN/blob/main/images/RNN_loss.png)
 
-CNN Loss function
+### RNN-LSTM Loss function
 
-![sign10](https://github.com/Martinyeh81/CNN/blob/main/images/CNN_loss.png)
+![sen5](https://github.com/Martinyeh81/RNN/blob/main/images/RNN_LSTM_loss.png)
 
-ResNet Loss function
-
-![sign11](https://github.com/Martinyeh81/CNN/blob/main/images/ResNet_loss.png)
 
 ## Reference
 
