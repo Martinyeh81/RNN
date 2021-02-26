@@ -13,7 +13,7 @@ The data is from deeplearning.ai (https://www.coursera.org/learn/nlp-sequence-mo
 |2|I am upset|3|
 |3|throw the ball|1|
 
-![sign1](https://github.com/Martinyeh81/CNN/blob/main/images/amer_sign3.png)
+![sen1](https://github.com/Martinyeh81/CNN/blob/main/images/amer_sign3.png)
 
 ### 400,001 words with 50-dimensional GloVe embeddings:
 
@@ -35,29 +35,18 @@ trainset's shape is (183, 2)
 
 testset's shape is (53, 2)
 
-Compute the cross-entropy cost function J:
+Compute the softmax cross-entropy cost function J:
 
 $$ J = - \frac{1}{m}  \sum_{i = 1}^m  \large ( \small y^{(i)} \log a^{(i)}\large )\small$$
 
-1. Simulated the DNN model(epoch = 1500, batch_size = 32, optimizer= adam): LINEAR -> RELU -> LINEAR -> RELU -> LINEAR -> SOFTMAX
+1. Simulated the RNN model(epoch = 400, optimizer= adam):
 
-![sign4](https://github.com/Martinyeh81/CNN/blob/main/images/DNN_layer.png)
+![sen2](https://github.com/Martinyeh81/CNN/blob/main/images/DNN_layer.png)
 
-2. CNN model(epoch = 200, batch_size = 64, optimizer= adam): CONV2D -> RELU -> MAXPOOL -> CONV2D -> RELU -> MAXPOOL -> FLATTEN -> FULLYCONNECTED
+2. RNN-LSTM model(epochs = 50, batch_size = 32, optimizer= adam):
 
-![sign6](https://github.com/Martinyeh81/CNN/blob/main/images/CNN_layer.png)
+![sen3](https://github.com/Martinyeh81/CNN/blob/main/images/CNN_layer.png)
 
-3. ResNet model (epoch = 10, batch_size = 32, optimizer= adam):
-
-The identity block is for the case where the input diimension is the same as the output dimension. Also, it skips over 3 hidden laters
-
-![sign6](https://github.com/Martinyeh81/CNN/blob/main/images/idblock3_kiank.png)
-
-The convolutional block is for the case where the input diimension is different from the output dimension. For example, To reduce the dimensions' H and W by a factor of 2, we use a 1x1 convolution with stride 2. Also, it skips over 3 hidden laters
-
-![sign7](https://github.com/Martinyeh81/CNN/blob/main/images/convblock_kiank.png)
-
-![sign8](https://github.com/Martinyeh81/CNN/blob/main/images/Resnet.png)
 
 ## Conclusion
 
