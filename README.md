@@ -28,19 +28,12 @@ The Text Corpus is from GloVe: Global Vectors for Word Representation (https://n
 |:|:|:|:|:|
 |49|0.10216|-0.38097|...|0.55559|
 
-![sign2](https://github.com/Martinyeh81/CNN/blob/main/images/american_sign_language.png)
-
-### Number of calsses
-
-![sign3](https://github.com/Martinyeh81/CNN/blob/main/images/number_classes.png)
 
 ## Model
 
-trainset's shape is (24709, 784)
+trainset's shape is (183, 2)
 
-Valset's shape is (2746, 784)
-
-testset's shape is (27455, 784)
+testset's shape is (53, 2)
 
 Compute the cross-entropy cost function J:
 
