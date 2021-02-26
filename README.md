@@ -19,7 +19,7 @@ The data is from deeplearning.ai (https://www.coursera.org/learn/nlp-sequence-mo
 
 The Text Corpus is from GloVe: Global Vectors for Word Representation (https://nlp.stanford.edu/projects/glove/)
 
-|Words|the|of|...|sandberger|
+||the|of|...|sandberger|
 | --- | --- | --- | --- | --- |
 |0|0.418|0.70853|...|0.072617|
 |1|0.24968|0.57088|...|-0.51393|
