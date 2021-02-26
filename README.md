@@ -86,3 +86,8 @@ CNN Loss function
 ResNet Loss function
 
 ![sign11](https://github.com/Martinyeh81/CNN/blob/main/images/ResNet_loss.png)
+
+## Reference
+
+"Convolutional Neural Networks" [Online]. Available: https://www.coursera.org/learn/convolutional-neural-networks/
+
