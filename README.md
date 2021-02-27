@@ -1,4 +1,4 @@
-# word sentiment
+# Sentences Sentiment
 
 ## Data
 
